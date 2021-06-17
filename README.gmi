@@ -1,0 +1,8 @@
+# Blaseball over Gemini
+
+Frequently asked questions include, "what is Blaseball?", "what is Gemini?", and "why would you want to access Blaseball over Gemini?" The author of this document does not have satisfactory answers to these questions at this time.
+
+## LICENSE
+
+All code within this resposity is placed by its authors into the public domain.
+This likely represents the code's value.
