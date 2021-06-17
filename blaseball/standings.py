@@ -37,7 +37,7 @@ def standings():
 def format_standings():
     s = ""
     for (d, teams) in standings():
-        s += f"## {d.name}\n"
+        s += f"### {d.name}\n"
         for team in teams:
             s += f"{team}\n"
         s += "\n"

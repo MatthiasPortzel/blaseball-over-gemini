@@ -9,5 +9,10 @@ app = JetforceApplication()
 
 @app.route("", strict_trailing_slash=False)
 def index(request):
-    return Response(Status.SUCCESS, "text/gemini", "# Blaseball\n" + format_standings())
+    return Response(Status.SUCCESS, "text/gemini", """# Blaseball Over Gemini
+Blaseball Over Gemini is in an experimental state. Code is on Github:
+=> https://github.com/MatthiasSaihttam/blaseball-over-gemini
+## Standings
+""" + format_standings())
+
 
