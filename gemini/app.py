@@ -9,5 +9,5 @@ app = JetforceApplication()
 
 @app.route("", strict_trailing_slash=False)
 def index(request):
-    return Response(Status.SUCCESS, "text/gemini", format_standings())
+    return Response(Status.SUCCESS, "text/gemini", "# Blaseball\n" + format_standings())
 

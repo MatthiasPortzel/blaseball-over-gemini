@@ -30,7 +30,7 @@ def standings():
 def format_standings():
     s = ""
     for (d, teams) in standings():
-        s += f"# {d.name}\n"
+        s += f"## {d.name}\n"
         for t in teams:
             s += f"{t.location} {t.nickname}\n"
         s += "\n"
