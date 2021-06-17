@@ -5,4 +5,20 @@ Frequently asked questions include, "what is Blaseball?", "what is Gemini?", and
 ## LICENSE
 
 All code within this resposity is placed by its authors into the public domain.
-This likely represents the code's value.
+(This likely represents the code's value.)
+
+## RUNNING
+
+This is pretty standard if you're familar with Python, Jetforce, Gemini, etc. But in case you're not, it should look something like this:
+
+```sh
+python3 -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt
+python main.py
+```
+
+Then point your gemini browser of choice at localhost.
+
+This project is not currently hosted. Pls help.
+
